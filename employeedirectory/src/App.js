@@ -1,7 +1,7 @@
 import React from "react";
 import Wrapper from "./components/Wrapper";
-import EmployeeTable from "./components/EmployeeTable";
-import Header from ".components/Header";
+import Main from "./components/Main";
+import Header from "./components/Header";
 
 import "./App.css";
 
@@ -10,7 +10,7 @@ function App() {
 		<div className='App'>
 			<Wrapper>
 				<Header />
-				<EmployeeTable />
+				<Main />
 			</Wrapper>
 		</div>
 	);
